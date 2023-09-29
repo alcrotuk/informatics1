@@ -1,0 +1,10 @@
+f = open('input.txt', 'r')
+s = f.read()
+s = s.replace('!','.').replace('?','.').replace('...','.')
+l = list()
+l = s.split('.')
+co=0
+for i in l:
+    if i!= '':
+        co +=1
+print(co)

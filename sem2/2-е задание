@@ -1,0 +1,6 @@
+G, s = input().split()
+s = list(s)
+G = int(G)
+for i in range(0, len(s), G):
+    s[i:i+G] = reversed(s[i:i+G])
+print(''.join(s))

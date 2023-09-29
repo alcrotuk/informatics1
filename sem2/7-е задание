@@ -1,0 +1,8 @@
+s = input()
+max = 0
+t = ''
+for i in s:
+    if s.count(i) > max:
+        max = s.count(i)
+        t = i
+print(t)

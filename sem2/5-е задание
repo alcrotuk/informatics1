@@ -1,0 +1,6 @@
+s = input()
+s = list(s)
+x = s[(len(s))-1]
+s.insert(0, x)
+s.pop()
+print(''.join(s))
